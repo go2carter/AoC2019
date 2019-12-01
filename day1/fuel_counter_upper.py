@@ -29,6 +29,7 @@ def compute_total_fuel(model_file, include_fuel=False):
             module_fuel = fuel_for_module(mass, include_fuel)
             total_fuel += module_fuel
     print('Total fuel needed for Santa: {}'.format(total_fuel))
+    return total_fuel
 
 
 def main():
